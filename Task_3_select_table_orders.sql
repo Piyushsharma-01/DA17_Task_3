@@ -1,0 +1,15 @@
+select * from orders
+	select id from orders
+	select * from orders where dish='Paneer Tikka'
+	select * from orders where dish='Spring Rolls'
+	select * from orders where dish='Butter Chicken' 
+	select * from orders where dish='Ice Cream' 
+	select * from orders where dish='Fried Rice'
+	select * from orders where id='7'
+	select * from orders where id='11'
+	select * from orders where restaurantid='2' 
+	select * from orders where restaurantid='1' 
+	select * from orders where waiter='7'
+	select * from orders where waiter='10' 
+	select * from orders where cusine='Indian' 
+	select * from orders where cusine='Seafood' 
